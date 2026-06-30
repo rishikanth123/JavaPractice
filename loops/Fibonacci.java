@@ -7,11 +7,7 @@ public class Fibonacci{
         int first=0;
         int second=1;
         int next=0;
-        if(n==0){
-            System.out.println(n);
-            return;
-        }
-        if(n==1){
+        if(n==0||n==1){
             System.out.println(n);
             return;
         }
