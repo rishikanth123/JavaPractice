@@ -6,9 +6,7 @@ public class lasttwosum{
         int n1=sc.nextInt();
         System.out.println("Enter the second number: ");
         int n2=sc.nextInt();
-        int a=n1%10;
-        int b=n2%10;
-        System.out.println(a+b+"is the sum of last digit of two numbers");
+        System.out.println((n1%10)+(n2%10)+" is the sum of last digit of two numbers");
 
     }
 }
